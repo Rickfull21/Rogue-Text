@@ -1,30 +1,32 @@
-public class combatSystem
+public class game
 {
     // instance variables - replace the example below with your own
     private int turn;
 
-    public static void startBattle(character user)
+    public static void startAdventure(user player)
     {
         userChoice choice = new userChoice();
         character enemy = new character();
-            while (user.isDefeated() == false)
+            while (player.isDefeated() == false)
         {
             System.out.println("You encounter a enemy. What will you do?");
             if (choice.getChoice() == "Fight")
-                enemy.damaged(user.attack());
+                {
+                    //player.getMoves();
+                }
                 
-            user.damaged(enemy.attack());
+            player.damaged(enemy.attack());
                     
             if (enemy.isDefeated() == true)
                 {
                     System.out.println("You have defeated the enemy.");
                     choice.closeScanner();
                     break;
-                } else if (user.isDefeated() == true)
-                    {
+                } else if (player.isDefeated() == true)
+                {
                         System.out.println("You have been defeated.");
                         choice.closeScanner();
-                    }
+                }
         }
     }
 }

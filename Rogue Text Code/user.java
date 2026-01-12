@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class character
+public class user
 {
     // instance variables - replace the example below with your own
     private String name;
@@ -25,7 +25,7 @@ public class character
     private int score;
     private boolean defeated;
 
-    public character()
+    public user()
     {
         name = "Unknown Entity";
         health = 100;
@@ -48,7 +48,7 @@ public class character
         defeated = false;
     }
 
-    public character(String userInput)
+    public user(String userInput)
     {
         // initialise instance variables
         name = userInput;

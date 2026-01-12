@@ -1,5 +1,12 @@
 import java.util.Scanner;
-public class main
+
+/**
+ * Write a description of class test here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class test
 {
     public static void main(String[] args)
     {
@@ -9,7 +16,6 @@ public class main
         user player = new user(choice.getChoice());
         
         player.getInfo();
-        
-        game.startAdventure(player);
+        player.getAbilities();
     }
 }

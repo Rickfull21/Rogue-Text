@@ -1,9 +1,9 @@
 #BlueJ class context
-comment0.target=character
+comment0.target=user
 comment1.params=
-comment1.target=character()
+comment1.target=user()
 comment2.params=userInput
-comment2.target=character(java.lang.String)
+comment2.target=user(java.lang.String)
 comment3.params=
 comment3.target=void\ getInfo()
 comment4.params=

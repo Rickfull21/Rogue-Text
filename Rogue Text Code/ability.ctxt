@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ability
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Abilities\ here.\r\n\r\n\ @OR3O\r\n\ @0.0.1\r\n
+comment1.params=
+comment1.target=ability()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+numComments=3
